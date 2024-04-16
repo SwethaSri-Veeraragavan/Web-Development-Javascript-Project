@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+.container {
+  background-color: coral;
+  /* height: 200px;
+    width: 500px; */
+  padding: 25px;
+}
+.todo-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 10%;
+  width: 400px;
+  padding: 6px;
+  /* height: 200px; */
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+}
+.card input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 20px;
+  padding: 10px;
+}
+.fa-plus {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  padding: 10px;
+  margin-right: 5px;
+  box-shadow: 0 1px 2px 1px orange;
+  border-radius: 25px;
+}
+
+ul li {
+  margin: 20px;
+  padding: 10px;
+  list-style: none;
+  font-size: 18px;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.list1 {
+  width: 50px;
+  height: 20px;
+  /* padding: 3px; */
+}
+#clearAllBtn {
+  display: none;
+  background-color: white;
+  color: coral;
+  width: 70px;
+  border-radius: 10px;
+  height: 26px;
+}

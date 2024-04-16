@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 400px;
+  height: 300px;
+  background-color: aquamarine;
+  text-align: center;
+  margin-top: 10%;
+}
+h1,
+h2 {
+  font-size: 45px;
+}
+.btn {
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(158, 77, 77);
+  color: white;
+}

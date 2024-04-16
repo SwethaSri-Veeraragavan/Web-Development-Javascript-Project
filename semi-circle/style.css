@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 20px;
+    padding: 0px;    
+    height: 500px;
+    width: 750px;
+    background-color: rgba(220, 128, 15, 0.185);
+    box-shadow: 0 4px 10px 0 black;
+}
+h1{
+    margin: 10px 15px;
+    text-align: center;
+}
+
+.S-circle{
+    top: 40%;
+    left: 35%;
+    position: absolute;
+    background-color: rgb(255, 132, 0);
+    width: 400px;
+    height: 200px;
+    border-radius: 0px 0 200px 200px;
+    border-style: dashed;
+    
+}
+/* display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.991);
+    transition: 0.3s;
+    width: 750px;
+    border-radius: 5px;
+    margin: 5em auto; */

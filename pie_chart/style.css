@@ -1,0 +1,135 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.container {
+  position: relative;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  padding: 25px;
+  font-size:large;
+}
+.card {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  border-radius: 0 100px 100px 0 ;
+  background-color: #3498db;
+  margin-left: 55%;
+  /* overflow: hidden; */
+
+}
+.circle:hover{
+  box-shadow: 0px 2px 4px 2px black;
+}
+.half-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 132, 0);
+  width: 100px;
+  height: 200px;
+  border-radius: 100px 0 0 100px;
+  
+  
+}
+.pie1{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(0, 255, 221);
+  width: 100px;
+  height: 100px;
+  border-radius: 0 0 0 100px;
+  /* border: 2px solid white; */
+  /* border: 5px solid cornflowerblue ; */ 
+}
+
+/* End */
+
+/* .pie {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #3498db;
+  overflow: hidden;
+  
+}
+.pie-c::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  border: 1px solid white;
+  background-color: #e18f8f; 
+  transform-origin: right bottom;
+} */
+ 
+
+/* .pie2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 191, 0);
+  width: 100px;
+  height: 200px;
+  border-radius: 0 100px 100px 0 ;
+}
+
+.pie3{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #655;
+  width: 100px;
+  height: 100px;
+  border-radius: 0 100% 100% 0;
+  transform-origin: left;
+  transform: rotate(180deg);
+   margin-left: 16.3%;
+  margin-top: 1px; 
+  box-shadow: 1px 0px 1px 6px rgb(255, 255, 255); 
+  border-style:outset;
+} */
+
+  /* .container {
+    margin: 20%;
+    width: 400px;
+    height: 400px;
+    background-color: cornflowerblue;
+} */
+  
+
+  /* margin-top: 300px; 
+            display: block; 
+            position: absolute; 
+            width: 400px; 
+            height: 400px; 
+            border-radius: 50%; 
+            border: 2px solid ;
+            background-image: conic-gradient( 
+                pink 70deg ,  
+                lightblue 0 235deg,  
+                orange 0);  */
+  
+  
+  
